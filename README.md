@@ -9,7 +9,8 @@ start example:
 ./jq_lib.sh "192.168.0.18:9187" "1"  
 or  
 ./jq_lib.sh "192.168.0.18:9187"  
-  
+
+json file is 4.txt    
 if you need json adjustment, then look at 3.txt and 4.txt  
 dependencies: git curl jq  
   
