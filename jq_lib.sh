@@ -31,3 +31,5 @@ fi
 done
 grep -v "\#" $home"5.txt" >> $home"4.txt"
 cat $home"4.txt" | jq '.'
+
+#cat $home"4.txt" | tr -s '\r\n' ' ' | tr -d ' ' > json_for_zabbix.txt
